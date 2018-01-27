@@ -27,12 +27,30 @@
     <ClInclude Include="sakura.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="TPGC_11dll.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TPGM_12dll.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TPJT3.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TPJT3c.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TPUD_13dll.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="sakura.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="info_disp.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,5 +66,14 @@
     <Image Include="sakura.ico">
       <Filter>リソース ファイル</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="TPGC_11.lib" />
+    <Library Include="TPGM_12.lib" />
+    <Library Include="TPJT3.lib" />
+    <Library Include="TPJT3c.lib" />
+    <Library Include="TPRMCAN.lib" />
+    <Library Include="TPRMI2C.lib" />
+    <Library Include="TPUD_13.lib" />
   </ItemGroup>
 </Project>

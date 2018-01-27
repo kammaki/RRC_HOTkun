@@ -151,8 +151,14 @@
     <ClInclude Include="sakura.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TPGC_11dll.h" />
+    <ClInclude Include="TPGM_12dll.h" />
+    <ClInclude Include="TPJT3.h" />
+    <ClInclude Include="TPJT3c.h" />
+    <ClInclude Include="TPUD_13dll.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="info_disp.cpp" />
     <ClCompile Include="sakura.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -167,6 +173,15 @@
   <ItemGroup>
     <Image Include="sakura.ico" />
     <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="TPGC_11.lib" />
+    <Library Include="TPGM_12.lib" />
+    <Library Include="TPJT3.lib" />
+    <Library Include="TPJT3c.lib" />
+    <Library Include="TPRMCAN.lib" />
+    <Library Include="TPRMI2C.lib" />
+    <Library Include="TPUD_13.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
