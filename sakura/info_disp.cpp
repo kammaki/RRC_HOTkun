@@ -5,4 +5,5 @@
 #include "TPGM_12dll.h"
 
 
-//aaaa
+//a
+TPGM_sprite(RECT(0, 0, 128, 128), 0, 0);
